@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="angular.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="second.js"></script>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body ng-app="Quote">
+    <div id=main>
+        <div style="background-color: white;">        
+            <div ng-controller="mycontroller" id="first">
+                <span style="font-size: 8rem;color:red">"</span>
+                <span style="font-size:2.5rem">{{quotename}}</span>
+                <p id="author" style="font-size: 1.5rem">{{author}}</p>
+                <i class="fab fa-twitter" ng-click="twitter()" style="font-size:3rem"></i>
+                <button ng-click="change()" id="button">change</button>
+            </div>
+        </div>
+</div>
+    
+</body>
+</html>

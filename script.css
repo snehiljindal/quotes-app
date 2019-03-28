@@ -1,0 +1,32 @@
+body{
+    background-color: red
+}
+#main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#first{
+    margin: 1rem;
+}
+#button{
+    float: right;
+    margin-bottom:20px;
+    font-size: 1.5rem;
+    border:none;
+    background: red;
+    color: white;
+    padding: 5px;
+}
+#button:hover{
+    background: #000;
+
+}
+#author{
+    text-align: right;
+    
+}
+.fab.fa-twitter{
+    color:red;
+}
